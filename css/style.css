@@ -54,10 +54,6 @@ body::-webkit-scrollbar {
   line-height: 5vw;
 }
 
-.admin:hover {
-  width: 90vw;
-}
-
 .inf {
   position: relative;
 }
