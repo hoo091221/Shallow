@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer {
+  background-color: #27272a;
+  color: #717171;
+  font-family: "NanumSquareNeo-Variable";
+  height: 12rem;
+}
+
+.footer-hr {
+  width: 95%;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-div {
+  width: 95vw;
+  height: 10rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.footer-left {
+  text-align: left;
+}

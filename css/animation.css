@@ -1,0 +1,26 @@
+.splash-text {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition:
+    opacity 1s,
+    transform 1s;
+  z-index: 1;
+}
+
+.splash-p {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition:
+    opacity 1s,
+    transform 1s;
+  z-index: 1;
+}
+
+.splash-btn {
+  opacity: 0;
+  transform: translateY(-100px);
+  transition:
+    opacity 1s,
+    transform 1s;
+  z-index: 1;
+}

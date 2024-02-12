@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.main_image_text {
+  text-align: center;
+  padding-top: 40vh;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5em;
+  animation: main_image_text 3s;
+  color: white;
+}
+
+.title_text {
+  padding-top: 5rem;
+}
+
+.content_text {
+  font-size: 2.5rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+  color: #ff78c4;
+}
+
+.admin_title {
+  font-size: 3.5vw;
+  padding-top: 2vw;
+}
+
+.admin_content {
+  font-size: 2vw;
+}
+
+i {
+  font-size: 2vw;
+  color: white;
+}
+
+/* P */
+
+.main_image_p {
+  text-align: center;
+  transform: translate(0%, -50%);
+  color: white;
+  font-size: 2rem;
+  margin-top: 1rem;
+  animation: main_image_p 3s;
+  color: white;
+}

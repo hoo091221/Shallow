@@ -1,0 +1,20 @@
+.donate-btn {
+    text-align: center;
+    display: inline-block;
+    width: 20rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: #fff;
+    margin-top: 10rem;
+}
+
+.donate-btn-table {
+    width: 100%;
+    font-size: 1.7rem;
+}
+
+.icon {
+    width: 5rem;
+    height: auto;
+}
