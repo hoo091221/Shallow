@@ -1,5 +1,11 @@
-@media (width < 6em) {
+@media (width < 500px) {
     .main_image_text {
-        font-size: 80vw;
+        font-size: 15vw;
+    }
+}
+
+@media (width < 800px) {
+    .main_image_p {
+        font-size: 4vw;
     }
 }
