@@ -17,6 +17,7 @@
 .admin_all_content {
   height: calc(110vw / 16 * 10);
   background: url('./../img/background/admin_background.png');
+  background-position: center;
   position: relative;
   width: 100%;
   background-attachment: fixed;
@@ -28,6 +29,7 @@
 .user_all_content {
   height: calc(150vw / 16 * 10);
   background: url('./../img/background/user_background.png');
+  background-position: center;
   position: relative;
   width: 100%;
   background-attachment: fixed;
@@ -37,10 +39,12 @@
 
 .user_image {
   background: url('./../img/background/user_background.png');
+  background-position: center;
 }
 
 .main_image {
   background: url('./../img/background/admin_background.png');
+  background-position: center;
 }
 
 .main_image,

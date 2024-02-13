@@ -1,0 +1,5 @@
+@media (width < 6em) {
+    .main_image_text {
+        font-size: 80vw;
+    }
+}
