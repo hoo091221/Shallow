@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p id="test">이 내용은 참새가 테스트하며 적어둔 내용입니다.</p>
+    <p id="test1">이 부가 내용 1.</p>
+    <p id="test2">이 부가 내용 2.</p>
+    <p><br>오류가 있을 경우 참새에게 알려주세요.</p>
+    <script>
+			window.onload = function map() {
+				getLocation();
+				showPosition();
+			};
+
+			function getLocation() {
+				if (navigator.geolocation) {
+					navigator.geolocation.getCurrentPosition(showPosition);
+				} else {
+					document.getElementById('text').innerHTML =
+						'Geolocation is not supported by this browser.';
+				}
+			}
+
+			function showPosition(position) {
+				document.getElementById('text').innerHTML = "오류가 발생했습니다.<br>Uncaught SyntaxError: Unexpected end of input (at sight.js:" + Math.floor(position.coords.latitude) + ":" + Math.floor(position.coords.longitude) + ")";
+					var x = position.coords.latitude - Math.floor(position.coords.latitude);
+          var y = position.coords.longitude - Math.floor(position.coords.longitude);
+        document.getElementById('text1').innerHTML = "Uncaught TypeError: Cannot read properties of undifined (reading 'toDisplayString') at const." + x;
+        document.getElementById('text2').innerHTML = "Uncaught TypeError: Cannot read properties of undifined (reading 'toDisplayString') at const." + y;
+			}
+		
+    </script>
+  </body>
+</html>
