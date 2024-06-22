@@ -1,0 +1,159 @@
+/* fonts */
+
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('./../../img/background/background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+    margin: 0px;
+}
+
+.body::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera*/
+}
+
+.res {
+    background: url('./../../img/background/background2.png');
+}
+
+.gui {
+    background: url('./../../img/background/background0.png');
+}
+
+.blur {
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.round {
+    border-radius: 20px;
+}
+
+.container-1 {
+    width: 400px;
+    height: 50vh;
+    background: white;
+    align-items: center;
+    position: absolute;
+    left: 50vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title-text {
+    font-family: 'JalnanGothic';
+    font-size: 1.7vw;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-group {
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+}
+
+.form-control {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    border-radius: 6px;
+    text-align: center;
+    border: 0px;
+    padding: 13px 16px;
+}
+
+.res-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.7vw;
+    font-family: 'JalnanGothic';
+}
+
+.res-result {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.3vw;
+    font-family: 'JalnanGothic';
+}
+
+.p {
+    text-align: center;
+    font-size: 1vw;
+}
+
+.p1 {
+    text-align: left;
+    font-size: 0.8vw;
+    color: #777;
+}
+
+.p2 {
+    text-align: left;
+    font-size: 0.8vw;
+    color: black;
+}
+
+#guideline {
+    /* overflow: scroll; */
+    width: 90%;
+    height: 35vh;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #555;
+}
+
+#check {
+    float:left
+}
+
+@media (width < 500px) {
+    .container-1 {
+        width: 70vw;
+    }
+    
+}
+
+@media (width < 1000px) {
+    .title-text {
+        font-size: 17px;
+    }
+
+    .res-title {
+        font-size: 17px;
+    }
+
+    .res-result {
+        font-size: 23px;
+    }
+
+    .p {
+        font-size: 10px;
+    }
+
+    .p1 {
+        font-size: 8px;
+    }
+}
+
+@media (height < 800px) {
+    #message {
+        height: 15vh;
+    }
+}
