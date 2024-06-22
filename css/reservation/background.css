@@ -25,10 +25,16 @@ body {
 
 .res {
     background: url('./../../img/background/background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .gui {
     background: url('./../../img/background/background0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .blur {
@@ -123,7 +129,6 @@ body {
 #check {
     float:left;
     align-items: center;
-    width: 0.8vw;
 }
 
 @media (width < 500px) {
@@ -158,5 +163,8 @@ body {
 @media (height < 800px) {
     #message {
         height: 15vh;
+    }
+    #check {
+        zoom:3.0;
     }
 }
