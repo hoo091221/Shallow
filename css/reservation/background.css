@@ -121,7 +121,9 @@ body {
 }
 
 #check {
-    float:left
+    float:left;
+    align-items: center;
+    width: 0.8vw;
 }
 
 @media (width < 500px) {
